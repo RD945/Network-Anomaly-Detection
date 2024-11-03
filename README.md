@@ -61,26 +61,26 @@ This project aims to detect anomalies in network traffic data using machine lear
 
 ## LIST OF COLUMNS FOR THE DATA SET:
 
--["duration","protocol_type","service","flag","src_bytes","dst_bytes","land",
--"wrong_fragment","urgent","hot","num_failed_logins","logged_in",
--"num_compromised","root_shell","su_attempted","num_root","num_file_creations",
--"num_shells","num_access_files","num_outbound_cmds","is_host_login",
--"is_guest_login","count","srv_count","serror_rate", "srv_serror_rate",
--"rerror_rate","srv_rerror_rate","same_srv_rate", "diff_srv_rate", "srv_diff_host_rate","dst_host_count","dst_host_srv_count","dst_host_same_srv_rate",
--"dst_host_diff_srv_rate","dst_host_same_src_port_rate",
--"dst_host_srv_diff_host_rate","dst_host_serror_rate","dst_host_srv_serror_rate",
--"dst_host_rerror_rate","dst_host_srv_rerror_rate","attack", "last_flag"]
+- ["duration","protocol_type","service","flag","src_bytes","dst_bytes","land",
+- "wrong_fragment","urgent","hot","num_failed_logins","logged_in",
+- "num_compromised","root_shell","su_attempted","num_root","num_file_creations",
+- "num_shells","num_access_files","num_outbound_cmds","is_host_login",
+- "is_guest_login","count","srv_count","serror_rate", "srv_serror_rate",
+- "rerror_rate","srv_rerror_rate","same_srv_rate", "diff_srv_rate", "srv_diff_host_rate","dst_host_count","dst_host_srv_count","dst_host_same_srv_rate",
+- "dst_host_diff_srv_rate","dst_host_same_src_port_rate",
+- "dst_host_srv_diff_host_rate","dst_host_serror_rate","dst_host_srv_serror_rate",
+- "dst_host_rerror_rate","dst_host_srv_rerror_rate","attack", "last_flag"]
 
 ## BASIC FEATURES OF EACH NETWORK CONNECTION VECTOR:
 
--1 Duration: Length of time duration of the connection
--2 Protocol_type: Protocol used in the connection
--3 Service: Destination network service used
--4 Flag: Status of the connection – Normal or Error
--5 Src_bytes: Number of data bytes transferred from source to destination in single connection
--6 Dst_bytes: Number of data bytes transferred from destination to source in single connection
--7 Land: if source and destination IP addresses and port numbers are equal then, this variable takes value 1
+- 1 Duration: Length of time duration of the connection
+- 2 Protocol_type: Protocol used in the connection
+- 3 Service: Destination network service used
+- 4 Flag: Status of the connection – Normal or Error
+- 5 Src_bytes: Number of data bytes transferred from source to destination in single connection
+- 6 Dst_bytes: Number of data bytes transferred from destination to source in single connection
+- 7 Land: if source and destination IP addresses and port numbers are equal then, this variable takes value 1
 else 0
--8 Wrong_fragment: Total number of wrong fragments in this connection
--9 Urgent: Number of urgent packets in this connection. Urgent packets are packets with the urgent bit
+- 8 Wrong_fragment: Total number of wrong fragments in this connection
+- 9 Urgent: Number of urgent packets in this connection. Urgent packets are packets with the urgent bit
 Activated
