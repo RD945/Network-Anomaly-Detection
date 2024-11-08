@@ -1,5 +1,5 @@
 
-# Network Anomaly Detection
+# Network Anomaly Detection By Reetam Dan E23CSEU0283
 
 This project detects anomalies in network traffic using machine learning. It utilizes supervised learning algorithms to classify traffic as either normal or anomalous based on patterns in network data.
 
