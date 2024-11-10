@@ -30,6 +30,7 @@ The notebook implements several classifiers to detect anomalies, including:
 - KNN
 - Decision Tree
 - Naive Bayes
+![image](https://github.com/user-attachments/assets/b23af083-926e-4d4b-bfe6-300fbe7ba81f)
 
 ## Results and Analysis
 
