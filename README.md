@@ -33,7 +33,7 @@ The notebook implements several classifiers to detect anomalies, including:
 
 ## Results and Analysis
 
-Model outputs and evaluation metrics are provided to interpret performance. Accuracy, precision, recall, F1 Score and Avergae metrics help evaluate how well the model distinguishes normal traffic from anomalies.
+Model outputs and evaluation metrics are provided to interpret performance. Accuracy, precision, recall, F1 Score and Average metrics help evaluate how well the model distinguishes normal traffic from anomalies.
 Best performance is given by Random Forest
 
 
