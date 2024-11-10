@@ -41,6 +41,9 @@ Best performance is given by Random Forest
 
 ![image](https://github.com/user-attachments/assets/693ac9c3-b428-46b8-83ba-317a607364b2)
 
+![image](https://github.com/user-attachments/assets/4705e4d6-1e2f-4a77-8f06-18fd71678a5a)
+
+
 ## Conclusion
 
 The notebook successfully identifies anomalies in network traffic. Future improvements could include feature engineering or testing additional algorithms like Adaboost, Gradient Boosting, Linear SVC, LightBGM, XGBoost and hyperparamter tuning with Optuna and website deployment(work in progress, will upload after milestone 2).
