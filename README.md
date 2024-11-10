@@ -24,22 +24,17 @@ The dataset consists of features representing network traffic attributes and a t
 ## Model Building
 
 The notebook implements several classifiers to detect anomalies, including:
-- Decision Tree Classifier
-- Random Forest Classifier
-- Gradient Boosting Classifier
-- Voting Classifier with multiple models
-- XGBoost and LightGBM for efficient gradient boosting
-
-Hyperparameter tuning with Optuna enhances the model's performance.
+- Logistic Regression
+- Random Forest
+- SVM
+- KNN
+- Decision Tree
+- Naive Bayes
 
 ## Results and Analysis
 
 Model outputs and evaluation metrics are provided to interpret performance. Accuracy, precision, and recall metrics help evaluate how well the model distinguishes normal traffic from anomalies.
-
-## Usage
-
-1. **Run Notebook**: Open and run each cell sequentially to reproduce the results.
-2. **Modify Parameters**: You can adjust model parameters and retrain to improve performance.
+Best performance is given by Random Forest
 
 ## Conclusion
 
