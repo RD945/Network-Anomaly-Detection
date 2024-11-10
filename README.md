@@ -36,8 +36,10 @@ The notebook implements several classifiers to detect anomalies, including:
 Model outputs and evaluation metrics are provided to interpret performance. Accuracy, precision, and recall metrics help evaluate how well the model distinguishes normal traffic from anomalies.
 Best performance is given by Random Forest
 
+
 ![image](https://github.com/user-attachments/assets/b23af083-926e-4d4b-bfe6-300fbe7ba81f)
+
 
 ## Conclusion
 
-The notebook successfully identifies anomalies in network traffic. Future improvements could include feature engineering or testing additional algorithms and website deployment(work in progress, will upload after milestone 2)
+The notebook successfully identifies anomalies in network traffic. Future improvements could include feature engineering or testing additional algorithms like Adaboost, Gradient Boosting, Linear SVC, LightBGM, XGBoost and hyperparamter tuning with Optuna and website deployment(work in progress, will upload after milestone 2).
