@@ -49,9 +49,11 @@ Best performance is given by Random Forest
 The notebook successfully identifies anomalies in network traffic. Future improvements could include feature engineering or testing additional algorithms like Adaboost, Gradient Boosting, Linear SVC, LightBGM, XGBoost and hyperparamter tuning with Optuna and website deployment(work in progress, will upload after milestone 2).
 
 
-## Explanation
+## Data Preprocessing
 
-the data preprocessing code in detail, explaining each part's purpose and how it prepares the dataset for machine learning:
+The Data Preprocessing code in detail explaining each part's purpose and how it prepares the dataset for machine learning:
+
+
 Importing Libraries
 
 import numpy as np
