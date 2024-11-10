@@ -31,13 +31,12 @@ The notebook implements several classifiers to detect anomalies, including:
 - Decision Tree
 - Naive Bayes
 
-
-![image](https://github.com/user-attachments/assets/b23af083-926e-4d4b-bfe6-300fbe7ba81f)
-
 ## Results and Analysis
 
 Model outputs and evaluation metrics are provided to interpret performance. Accuracy, precision, and recall metrics help evaluate how well the model distinguishes normal traffic from anomalies.
 Best performance is given by Random Forest
+
+![image](https://github.com/user-attachments/assets/b23af083-926e-4d4b-bfe6-300fbe7ba81f)
 
 ## Conclusion
 
